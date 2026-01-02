@@ -1,5 +1,4 @@
-/* styles.css */
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -28,8 +27,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header & Navigation */
-.header {
+ .header {
     background: var(--white);
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     position: sticky;
@@ -113,8 +111,7 @@ body {
     background: var(--light-gray);
 }
 
-/* Hero Section */
-.hero {
+ .hero {
     background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
     color: var(--white);
     padding: 100px 0;
@@ -229,8 +226,7 @@ body {
     border-radius: 30px;
 }
 
-/* Products Section */
-.products {
+ .products {
     padding: 100px 0;
     background: var(--white);
 }
@@ -333,8 +329,7 @@ body {
     background: var(--primary-color);
 }
 
-/* Banner Split Section */
-.banner-split {
+ .banner-split {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0;
@@ -378,8 +373,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Features Section */
-.features {
+ .features {
     padding: 80px 0;
     background: var(--light-gray);
 }
@@ -421,8 +415,7 @@ body {
     font-size: 14px;
 }
 
-/* Community Banner */
-.banner {
+ .banner {
     background: linear-gradient(135deg, var(--primary-color) 0%, #a8001a 100%);
     color: var(--white);
     padding: 100px 30px;
@@ -459,8 +452,7 @@ body {
     opacity: 0.95;
 }
 
-/* Footer */
-.footer {
+ .footer {
     background: var(--secondary-color);
     color: var(--white);
     padding: 80px 0 30px;
@@ -537,8 +529,7 @@ body {
     color: var(--white);
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
+ @media (max-width: 1024px) {
     .nav-menu {
         gap: 20px;
     }
@@ -660,7 +651,6 @@ body {
     }
 }
 
-/* Smooth Scrolling */
-html {
+ html {
     scroll-behavior: smooth;
 }
